@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#000000"><meta name="robots" content="noindex">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>MEMORIA — People &amp; Moments</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="gate" hidden></div>
+<div id="app" hidden>
+ <aside id="side"></aside>
+ <main><div class="search"><input id="q" type="search" placeholder="Buscar personas, gustos, recuerdos…" autocomplete="off"></div><div id="body"></div></main>
+ <nav id="tabs"></nav>
+ <button id="fab" class="fab" data-act="new" data-kind="memory" aria-label="Nota rápida"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+</div>
+<div id="modal" hidden></div>
+<script src="store.js"></script><script src="app.js"></script>
+</body></html>
